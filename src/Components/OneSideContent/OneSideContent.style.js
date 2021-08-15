@@ -15,7 +15,7 @@ width: auto;
 {
 	text-align: center;
 	padding-bottom: 1rem;
-	width: 60%;
+	width: 50%;
 @media screen and (max-width: 800px)
 {
 	width: 80%;
