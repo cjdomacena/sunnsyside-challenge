@@ -1,15 +1,34 @@
 import React from 'react'
+import { ThemeProvider } from 'styled-components';
+import {theme} from '../Theme';
+import {
+	Container,
+	TextSection,
+	ImageSection,
+	Button
+} from './TwoSideContent.style';
 
-const index = () => {
+
+const index = ({sectionHeader, sectionParagraph, order, img,color}) => {
 	return (
-		<>
-			<LeftContent>
+		<ThemeProvider theme={theme}>
+			<Container order={order} >
+				<TextSection order = {order}>
+					<div className="text-content">
+					<h2>{sectionHeader}</h2>
+					<p>{sectionParagraph}</p>
+					<Button color={color}>
+						<a href="/">Learn more</a>
+						<hr></hr>
+						</Button>
+					</div>
 
-			</LeftContent>
-			<RightContent>
-				
-			</RightContent>
-		</>
+				</TextSection>
+				<ImageSection order = {order}>
+					<img src={img}alt="egg in a yellow background" />
+				</ImageSection>
+			</Container>
+		</ThemeProvider>
 	)
 }
 

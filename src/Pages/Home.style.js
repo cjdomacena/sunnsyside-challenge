@@ -48,3 +48,9 @@ background-repeat: no-repeat;
 }
 
 `
+
+export const SectionContainer = styled.div`
+
+height: auto;
+width: 100%;
+`
