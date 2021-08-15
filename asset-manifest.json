@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sunnsyside-challenge/static/css/main.0d418004.chunk.css",
-    "main.js": "/sunnsyside-challenge/static/js/main.d2e931bf.chunk.js",
-    "main.js.map": "/sunnsyside-challenge/static/js/main.d2e931bf.chunk.js.map",
+    "main.js": "/sunnsyside-challenge/static/js/main.56fb2552.chunk.js",
+    "main.js.map": "/sunnsyside-challenge/static/js/main.56fb2552.chunk.js.map",
     "runtime-main.js": "/sunnsyside-challenge/static/js/runtime-main.731b2740.js",
     "runtime-main.js.map": "/sunnsyside-challenge/static/js/runtime-main.731b2740.js.map",
     "static/js/2.be312478.chunk.js": "/sunnsyside-challenge/static/js/2.be312478.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.731b2740.js",
     "static/js/2.be312478.chunk.js",
     "static/css/main.0d418004.chunk.css",
-    "static/js/main.d2e931bf.chunk.js"
+    "static/js/main.56fb2552.chunk.js"
   ]
 }
