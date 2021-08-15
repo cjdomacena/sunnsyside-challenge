@@ -6,8 +6,9 @@ import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-d
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
+
       <Router>
+      <Navbar></Navbar>
         <Switch>
           <Route path="/" exact component={Home} />
         </Switch>
