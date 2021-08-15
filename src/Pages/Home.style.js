@@ -50,7 +50,19 @@ background-repeat: no-repeat;
 `
 
 export const SectionContainer = styled.div`
-
 height: auto;
 width: 100%;
+`
+export const SidebySide = styled.div`
+max-width: 1440px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;
+margin: 0 auto;
+
+@media screen and (max-width: 800px)
+{
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+}
 `
