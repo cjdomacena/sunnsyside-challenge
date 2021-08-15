@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sunnsyside-challenge/static/css/main.0d418004.chunk.css",
-    "main.js": "/sunnsyside-challenge/static/js/main.8e22fd91.chunk.js",
-    "main.js.map": "/sunnsyside-challenge/static/js/main.8e22fd91.chunk.js.map",
+    "main.js": "/sunnsyside-challenge/static/js/main.e76b7b11.chunk.js",
+    "main.js.map": "/sunnsyside-challenge/static/js/main.e76b7b11.chunk.js.map",
     "runtime-main.js": "/sunnsyside-challenge/static/js/runtime-main.731b2740.js",
     "runtime-main.js.map": "/sunnsyside-challenge/static/js/runtime-main.731b2740.js.map",
-    "static/js/2.27a29ba5.chunk.js": "/sunnsyside-challenge/static/js/2.27a29ba5.chunk.js",
-    "static/js/2.27a29ba5.chunk.js.map": "/sunnsyside-challenge/static/js/2.27a29ba5.chunk.js.map",
+    "static/js/2.be312478.chunk.js": "/sunnsyside-challenge/static/js/2.be312478.chunk.js",
+    "static/js/2.be312478.chunk.js.map": "/sunnsyside-challenge/static/js/2.be312478.chunk.js.map",
     "index.html": "/sunnsyside-challenge/index.html",
     "static/css/main.0d418004.chunk.css.map": "/sunnsyside-challenge/static/css/main.0d418004.chunk.css.map",
-    "static/js/2.27a29ba5.chunk.js.LICENSE.txt": "/sunnsyside-challenge/static/js/2.27a29ba5.chunk.js.LICENSE.txt",
+    "static/js/2.be312478.chunk.js.LICENSE.txt": "/sunnsyside-challenge/static/js/2.be312478.chunk.js.LICENSE.txt",
     "static/media/image-graphic-design.09c20c2d.jpg": "/sunnsyside-challenge/static/media/image-graphic-design.09c20c2d.jpg",
     "static/media/image-graphic-design.7ac8bdf0.jpg": "/sunnsyside-challenge/static/media/image-graphic-design.7ac8bdf0.jpg",
     "static/media/image-header.49b52ffa.jpg": "/sunnsyside-challenge/static/media/image-header.49b52ffa.jpg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.731b2740.js",
-    "static/js/2.27a29ba5.chunk.js",
+    "static/js/2.be312478.chunk.js",
     "static/css/main.0d418004.chunk.css",
-    "static/js/main.8e22fd91.chunk.js"
+    "static/js/main.e76b7b11.chunk.js"
   ]
 }
