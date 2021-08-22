@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/sunnsyside-challenge/static/css/main.0d418004.chunk.css",
-    "main.js": "/sunnsyside-challenge/static/js/main.e57d6214.chunk.js",
-    "main.js.map": "/sunnsyside-challenge/static/js/main.e57d6214.chunk.js.map",
+    "main.css": "/sunnsyside-challenge/static/css/main.16a81d83.chunk.css",
+    "main.js": "/sunnsyside-challenge/static/js/main.54409a02.chunk.js",
+    "main.js.map": "/sunnsyside-challenge/static/js/main.54409a02.chunk.js.map",
     "runtime-main.js": "/sunnsyside-challenge/static/js/runtime-main.731b2740.js",
     "runtime-main.js.map": "/sunnsyside-challenge/static/js/runtime-main.731b2740.js.map",
-    "static/js/2.be312478.chunk.js": "/sunnsyside-challenge/static/js/2.be312478.chunk.js",
-    "static/js/2.be312478.chunk.js.map": "/sunnsyside-challenge/static/js/2.be312478.chunk.js.map",
+    "static/js/2.a2c6a1c6.chunk.js": "/sunnsyside-challenge/static/js/2.a2c6a1c6.chunk.js",
+    "static/js/2.a2c6a1c6.chunk.js.map": "/sunnsyside-challenge/static/js/2.a2c6a1c6.chunk.js.map",
     "index.html": "/sunnsyside-challenge/index.html",
-    "static/css/main.0d418004.chunk.css.map": "/sunnsyside-challenge/static/css/main.0d418004.chunk.css.map",
-    "static/js/2.be312478.chunk.js.LICENSE.txt": "/sunnsyside-challenge/static/js/2.be312478.chunk.js.LICENSE.txt",
+    "static/css/main.16a81d83.chunk.css.map": "/sunnsyside-challenge/static/css/main.16a81d83.chunk.css.map",
+    "static/js/2.a2c6a1c6.chunk.js.LICENSE.txt": "/sunnsyside-challenge/static/js/2.a2c6a1c6.chunk.js.LICENSE.txt",
+    "static/media/image-gallery-cone.461ff421.jpg": "/sunnsyside-challenge/static/media/image-gallery-cone.461ff421.jpg",
+    "static/media/image-gallery-cone.fb0906a7.jpg": "/sunnsyside-challenge/static/media/image-gallery-cone.fb0906a7.jpg",
+    "static/media/image-gallery-milkbottles.df1d9d84.jpg": "/sunnsyside-challenge/static/media/image-gallery-milkbottles.df1d9d84.jpg",
+    "static/media/image-gallery-orange.373d43f1.jpg": "/sunnsyside-challenge/static/media/image-gallery-orange.373d43f1.jpg",
+    "static/media/image-gallery-orange.49f4212b.jpg": "/sunnsyside-challenge/static/media/image-gallery-orange.49f4212b.jpg",
+    "static/media/image-gallery-sugar-cubes.fefc3841.jpg": "/sunnsyside-challenge/static/media/image-gallery-sugar-cubes.fefc3841.jpg",
+    "static/media/image-gallery-sugarcubes.09b72f4f.jpg": "/sunnsyside-challenge/static/media/image-gallery-sugarcubes.09b72f4f.jpg",
     "static/media/image-graphic-design.09c20c2d.jpg": "/sunnsyside-challenge/static/media/image-graphic-design.09c20c2d.jpg",
     "static/media/image-graphic-design.7ac8bdf0.jpg": "/sunnsyside-challenge/static/media/image-graphic-design.7ac8bdf0.jpg",
     "static/media/image-header.49b52ffa.jpg": "/sunnsyside-challenge/static/media/image-header.49b52ffa.jpg",
@@ -20,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.731b2740.js",
-    "static/js/2.be312478.chunk.js",
-    "static/css/main.0d418004.chunk.css",
-    "static/js/main.e57d6214.chunk.js"
+    "static/js/2.a2c6a1c6.chunk.js",
+    "static/css/main.16a81d83.chunk.css",
+    "static/js/main.54409a02.chunk.js"
   ]
 }
