@@ -2,7 +2,8 @@ import React from 'react'
 import {
 	HeroContainer,
 	SectionContainer,
-	SidebySide
+	SidebySide,
+	TestimonialContainer
 
 } from './Home.style.js';
 import { ThemeProvider } from 'styled-components';
@@ -12,6 +13,8 @@ import egg from '../Assets/Images/Desktop/image-transform.jpg';
 import egg_mobile from '../Assets/Images/Mobile/image-transform.jpg';
 import standout from '../Assets/Images/Desktop/image-stand-out.jpg';
 import standout_mobile from '../Assets/Images/Mobile/image-stand-out.jpg';
+import Testimonial from './../Components/Testimonial'
+import Gallery from './../Components/Gallery'
 
 import graphic_design from '../Assets/Images/Desktop/image-graphic-design.jpg';
 import graphic_design_mobile from '../Assets/Images/Mobile/image-graphic-design.jpg';
@@ -22,6 +25,23 @@ import photography_mobile from '../Assets/Images/Mobile/image-photography.jpg';
 import OneSideContent from './../Components/OneSideContent'
 import { useState, useEffect } from 'react';
 
+
+import emily from './../Assets/image-emily.jpg';
+import jennie from './../Assets/image-jennie.jpg';
+import thomas from './../Assets/image-thomas.jpg';
+
+import cones from './../Assets/Images/Desktop/image-gallery-cone.jpg'
+import milkbottles from './../Assets/Images/Desktop/image-gallery-milkbottles.jpg'
+import orange from './../Assets/Images/Desktop/image-gallery-orange.jpg'
+import sugarcubes from './../Assets/Images/Desktop/image-gallery-sugarcubes.jpg'
+
+import cones_mobile from './../Assets/Images/Mobile/image-gallery-cone.jpg'
+import milkbottles_mobile from './../Assets/Images/Mobile/image-gallery-milkbottles.jpg'
+import orange_mobile from './../Assets/Images/Mobile/image-gallery-orange.jpg'
+import sugarcubes_mobile from './../Assets/Images/Mobile/image-gallery-sugar-cubes.jpg'
+
+
+// Functions that determine window size
 function useWindowSize() {
 
 	const [windowSize, setWindowSize] = useState({
@@ -46,9 +66,17 @@ function useWindowSize() {
 }
 
 const Home = () => {
+
+	// Holds images for the gallery
+	const gallery = [milkbottles,orange,cones,sugarcubes];
+	const galleryMobile = [milkbottles_mobile,orange_mobile,cones_mobile,sugarcubes_mobile];
+
+	// Get window size
 	const size = useWindowSize();
 	return (
 		<ThemeProvider theme={theme}>
+
+			{/* Hero */}
 			<HeroContainer>
 				<div className="hero-content">
 					<h1>WE ARE CREATIVES</h1>
@@ -57,6 +85,8 @@ const Home = () => {
 				</div>
 
 			</HeroContainer>
+
+			{/* Two Rows with reversed items Container */}
 			<SectionContainer>
 				<Section
 					sectionHeader=
@@ -76,6 +106,7 @@ const Home = () => {
 				></Section>
 			</SectionContainer>
 
+{/* SidebySide Content */}
 			<SectionContainer>
 				<SidebySide>
 					<OneSideContent
@@ -96,6 +127,35 @@ const Home = () => {
 				</SidebySide>
 			</SectionContainer>
 
+{/* Testimonials */}
+			<TestimonialContainer>
+				<h3>CLIENT TESTIMONIALS</h3>
+				<div className="testimony-container">
+
+
+				<Testimonial
+					image={emily}
+					testimonial="We put our trust in Sunnyside and they delivered, making sure our needs were met and dealines were always hit."
+					name="Emily R."
+					position="Marketing Director"
+				/>
+				<Testimonial
+					image={thomas}
+					testimonial="Sunnysides's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience."
+					name="Thomas S."
+					position="Chief Operating Officer"
+				/>
+				<Testimonial
+					image={jennie}
+					testimonial="Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!"
+					name="Jennie F."
+					position="Business Owner"
+				/>
+			</div>
+
+			</TestimonialContainer>
+
+		<Gallery images={(size.width > 800 ? gallery : galleryMobile)}/>
 
 		</ThemeProvider>
 
