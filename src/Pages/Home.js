@@ -8,13 +8,22 @@ import {
 } from './Home.style.js';
 import { ThemeProvider } from 'styled-components';
 import { theme } from '../Components/Theme';
+
+// Components
 import Section from '../Components/TwoSideContent';
+import Testimonial from './../Components/Testimonial'
+import Gallery from './../Components/Gallery'
+import Footer from './../Components/Footer'
+
+
+// Assets
 import egg from '../Assets/Images/Desktop/image-transform.jpg';
 import egg_mobile from '../Assets/Images/Mobile/image-transform.jpg';
 import standout from '../Assets/Images/Desktop/image-stand-out.jpg';
 import standout_mobile from '../Assets/Images/Mobile/image-stand-out.jpg';
-import Testimonial from './../Components/Testimonial'
-import Gallery from './../Components/Gallery'
+
+
+
 
 import graphic_design from '../Assets/Images/Desktop/image-graphic-design.jpg';
 import graphic_design_mobile from '../Assets/Images/Mobile/image-graphic-design.jpg';
@@ -65,8 +74,11 @@ function useWindowSize() {
 	return windowSize;
 }
 
-const Home = () => {
 
+// Navbar check scroll
+
+
+const Home = () => {
 	// Holds images for the gallery
 	const gallery = [milkbottles,orange,cones,sugarcubes];
 	const galleryMobile = [milkbottles_mobile,orange_mobile,cones_mobile,sugarcubes_mobile];
@@ -156,7 +168,7 @@ const Home = () => {
 			</TestimonialContainer>
 
 		<Gallery images={(size.width > 800 ? gallery : galleryMobile)}/>
-
+		<Footer></Footer>
 		</ThemeProvider>
 
 

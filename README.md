@@ -75,7 +75,7 @@ I'm still going to work on the mobile navigation
 ### Useful resources
 
 - [useWIndowSize](https://usehooks.com/useWindowSize/) - Help me to dynamically change the image from of side by side content when screen size reached a certain condition.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Mobile menu border triange](https://css-tricks.com/the-shapes-of-css/) - Found this resource to implement the triangle shape at the top right of the mobile menu bar.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 

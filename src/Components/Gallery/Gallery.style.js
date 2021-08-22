@@ -10,7 +10,7 @@ grid-template-rows: auto;
 img 
 {
 	width: 100%;
-	height: auto;
+	height: 100%;
 }
 @media screen and (max-width: 800px)
 {
